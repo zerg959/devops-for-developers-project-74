@@ -7,4 +7,4 @@ services:
       context: .
       dockerfile: Dockerfile.production
     command: make test
-    image: zerg959/app:latest
+    image: zerg959/devops-for-developers-project-74:latest
