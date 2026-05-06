@@ -6,4 +6,5 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.production
-
+    command: make test
+    image: zerg959/app:latest
