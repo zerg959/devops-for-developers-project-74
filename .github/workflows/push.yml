@@ -1,0 +1,6 @@
+# file .github/workflows/push.yml
+name: devops-project1-push
+
+on: push
+jobs:
+  test:
