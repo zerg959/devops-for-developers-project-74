@@ -1,7 +1,7 @@
 # JS Fastify Blog
 ### App tests and Docker status:
 [![Actions Status](https://github.com/zerg959/devops-for-developers-project-74/actions/workflows/push.yml/badge.svg)](https://github.com/zerg959/devops-for-developers-project-74/actions)
-
+[![devops-project1-push](https://github.com/zerg959/devops-for-developers-project-74/actions/workflows/push.yml/badge.svg)](https://github.com/zerg959/devops-for-developers-project-74/actions/workflows/push.yml)
 ## Requirement
 
 * NodeJS v20.6.1
