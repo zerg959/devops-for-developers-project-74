@@ -21,7 +21,7 @@ jobs:
       - name: Run tests
         run: make ci
 
-      - name: Build Docker image
+      - name: Build Docker image1
         run: docker build -t ${{secrets.DOCKERHUB_USERNAME}}/devops-for-developers-project-74:latest .
 
       - name: Push image to Docker Hub
