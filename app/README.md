@@ -1,6 +1,6 @@
 # JS Fastify Blog
-
-[![Main](https://github.com/hexlet-components/js-fastify-blog/actions/workflows/main.yml/badge.svg)](https://github.com/hexlet-components/js-fastify-blog/actions/workflows/main.yml)
+### App tests and Docker status:
+[![Actions Status](https://github.com/zerg959/devops-for-developers-project-74/actions/workflows/push.yml/badge.svg)](https://github.com/zerg959/devops-for-developers-project-74/actions)
 
 ## Requirement
 
