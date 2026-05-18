@@ -14,3 +14,9 @@ COPY app/package-lock.json ./package-lock.json
 
 # Устанавливаем зависимости ВНУТРИ образа
 RUN npm ci
+
+# Копируем исходный код приложения
+COPY app/. .
+
+# Команда запуска по умолчанию
+CMD ["make", "dev"]

@@ -1,29 +1,26 @@
----
-version: "3.8"
 services:
   caddy:
     image: caddy:2-alpine
     restart: unless-stopped
-    ports: 
+    ports:
       - "80:80"
       - "443:443"
     volumes:
       - ./services/caddy/Caddyfile:/etc/caddy/Caddyfile:ro
       - caddy_data:/data
       - caddy_config:/config
-  app:
 
+  app:
     build:
       context: .
       dockerfile: Dockerfile
     ports:
       - "8080:8080"
-
     command: make dev
     volumes:
       - "./app:/app"
       - "/app/node_modules"
-      # - ./app/Makefile:/app/Makefile
+      # - ./app/Makefile:/app/Makefile 
 
 volumes:
   caddy_data:
