@@ -1,5 +1,5 @@
 ci:
-	docker compose -f ../docker-compose.yml up --abort-on-container-exit
+	docker-compose -f ../docker-compose.yml run --rm app make test
 
 setup: install db-migrate
 
