@@ -13,6 +13,7 @@ services:
       interval: 5s
       timeout: 5s
       retries: 5
+    hostname: db
   app:
 
     build:
@@ -20,3 +21,8 @@ services:
       dockerfile: Dockerfile.production
     command: make test
     image: zerg959/devops-for-developers-project-74:latest
+    depends_on:
+      db:
+        - service_healthy
+      environment:
+        DATABASE_HOST: db
