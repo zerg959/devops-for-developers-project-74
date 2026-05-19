@@ -20,7 +20,6 @@ services:
     volumes:
       - "./app:/app"
       - "/app/node_modules"
-      # - ./app/Makefile:/app/Makefile 
 
 volumes:
   caddy_data:
