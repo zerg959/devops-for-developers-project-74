@@ -134,3 +134,13 @@ dmypy.json
 #files
 .ingredients_2.json
 .load_ingredients.py
+.idea/
+.vscode/
+node_modules/
+build/
+dist/
+tmp/
+temp/
+.env
+*.sqlite
+/cache
